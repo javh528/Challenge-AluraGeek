@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresa Productos</title>
+    <link rel="stylesheet" href="./Estilos/EstiloFormulario.css">
+    <link rel="icon" type="image/x-icon" href="Icono/ventas.png">
+</head>
+<body>
+    <main class="Geek">
+        <header class="header__container">
+            <div class="navegacion">
+                <img class="Imagen__Header__Home" src="Icono/home.png" alt="Home">
+            <h2 class="Titulo__inicio">Inicio</h2>
+            </div>
+            <div class="navegacion">
+                <img class="Imagen__Header__productos" src="Icono/Productos.png" alt="Entrar">
+            <h2 class="Titulo__inicio">Productos</h2>
+            </div>
+        </header>
+
+        <h1 class="Titulo">Agregar productos</h1>
+        <div class="Container_productos">
+            <form class="Formulario"  method="post" id="formulario_Producto" data-formulario>
+                <form id="formularioProducto">
+                    <input type="text" id="nombre" name="nombre" required placeholder="Nombre producto.....">
+                    <input type="text" id="precio" name="precio" required placeholder="Precio.....">
+                    <input type="text" id="imagen" name="imagen" required placeholder="URL de la imagen...">
+                    <div class="Formulario__botones">
+                        <input class="Boton__agregarProducto" type="submit" value="Agregar">
+                        <input class="Boton__LimpiarFormulario" type="reset" value="Limpiar">
+                    </div> 
+                </form>
+                
+                <!-- <input type="text" id="nombre" name="nombre" required placeholder="Nombre producto....." data-nombre>
+                <input type="text" id="precio" name="precio" required placeholder="Precio....." data-precio>
+                <input type="text" id="imagen" name="imagen" required placeholder="URL de la imagen..." data-imagen>
+                <div class="Formulario__botones">
+                    <input class="Boton__agregarProducto" type="submit" value="Agregar">
+                    <input class="Boton__LimpiarFormulario" type="reset" value="Limpiar">
+                </div> -->
+            </form>
+        </div>
+        <footer class="footer__Container">
+            <p class="Texto_footer">
+                Proyecto desarrollado por Julian Vidal 
+            </p>
+            <p class="Texto_footer">
+                Alura Latam -2024- 
+            </p>
+        </footer>
+    </main>
+    <script src="js/redireccionar.js"></script>
+    <script src="js/crearProducto.js" type="module"></script>
+    
+</body>
+</html>

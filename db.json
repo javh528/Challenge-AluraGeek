@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Laptop",
+      "precio": 1200000,
+      "imagen": "https://megacomputer.com.co/wp-content/uploads/2024/02/802L5LAABM.webp"
+    },
+    {
+      "id": "2",
+      "nombre": "Audifonos",
+      "precio": 15000,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_620187-MLU69726815032_052023-O.webp"
+    },
+    {
+      "id": "3",
+      "nombre": "Celular",
+      "precio": 800000,
+      "imagen": "https://audiocolor.co/cdn/shop/files/CELULAR-GALAXY-A55-VIOLETA-DE-256GB-3.jpg?v=1722630992"
+    },
+    {
+      "id": "4",
+      "nombre": "Televisor",
+      "precio": 3000000,
+      "imagen": "https://cdn1.totalcommerce.cloud/mercacentro/product-zoom/es/televisor-lg-65-pulgadas-4k-uhd-65ut7300psa.awcq-4.webp"
+    },
+    {
+      "id": "1732684708887",
+      "nombre": "Table",
+      "precio": 1200000,
+      "imagen": "https://cdn.thewirecutter.com/wp-content/media/2024/06/besttablets-2048px-9871-3x2-1.jpg?auto=webp&quality=75&crop=4:3,smart&width=1024"
+    },
+    {
+      "id": "1732735990324",
+      "nombre": "equipo de sonido",
+      "precio": 5200000,
+      "imagen": "https://www.lg.com/cac/images/equipo-de-sonido/cm4340/gallery/4340_large01.jpg"
+    },
+    {
+      "id": 1732820606949,
+      "nombre": "CARRO",
+      "precio": 88555555555,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfuknjXZZAW_E8ex9EzNLhPlb4KWQnBORjg&s"
+    }
+  ]
+}

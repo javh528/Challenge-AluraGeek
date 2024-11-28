@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --Fuente-Titulos:  "Bebas Neue", sans-serif;
+    --Fuente_Parrafos: "Raleway", sans-serif;
+    --Fuente_Formularios: "Edu AU VIC WA NT Pre", cursive;
+    --Fuente_Botones: "IBM Plex Mono", monospace;
+
+    --Color_Fondo: #fdf0d5; 
+    --Color_Fondo2: #003049;
+    --Color_Botones: #780000;
+    --Color_formulario: #669bbc;
+    --Color_fuente: #fdf0d5;
+
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    /* background-image: linear-gradient(150deg, #010216 0%, #040a0b 50%, #0a0908 100%); */
+    background-image: url('/Imagenes/4.jpg');
+}
+main.Geek {
+    width: 80%; /* Ajusta este valor según lo necesites */
+    margin: 20px auto;
+    background-image: linear-gradient(150deg, #222334 0%, #33c9ee 50%, #0a0908 100%);;
+    border-radius: 25px;
+    align-items: center;
+    opacity: 0.9;
+}
+.Geek__header {
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--Fuente-Titulos);
+    color: var(--Color_fuente);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.985); /* X, Y, desenfoque, color */
+}
+.Titulo__inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-family: var(--Fuente_Parrafos);
+    color: var(--Color_fuente);
+}
+.header__container{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin: 2%;
+    gap: 25px;
+}
+.Imagen__Header__productos, .Imagen__Header__Home {
+    height: 50px;
+    width: 50px;
+}
+.Titulo__inicio{
+    font-size: 1.2rem;
+}
+.Titulo {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.Container_productos{
+    display: flex; /* Permite distribuir las imágenes en línea */
+    flex-wrap: wrap; /* Hace que el contenido baje a la siguiente línea si es necesario */
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    padding: 20px; /* Espacio interno */
+    align-items: center;
+    width: 80%;
+    padding: 40px;
+    margin: 0% 0% 0% 10%;
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+.Formulario input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    flex-wrap: wrap; /* Hace que el contenido baje a la siguiente línea si es necesario */
+}
+
+input[type="text"]{
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: var(--Fuente_Parrafos);
+    font-size: 0.9rem;
+    flex-wrap: wrap; /* Hace que el contenido baje a la siguiente línea si es necesario */
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--Fuente_Botones);
+    flex-wrap: wrap; /* Hace que el contenido baje a la siguiente línea si es necesario */
+}
+input[type="reset"] { 
+    width: 100%;
+    padding: 10px;
+    background-color: #e9edf1;
+    color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--Fuente_Botones);
+    flex-wrap: wrap; /* Hace que el contenido baje a la siguiente línea si es necesario */
+}
+
+input[type="submit"]:hover {
+    background-color: var(--Color_Fondo2);
+    font-size: 0.9rem;
+}
+input[type="reset"]:hover {
+    background-color: var(--Color_Fondo2);
+    font-size: 0.9rem;
+    color: rgb(250, 246, 246);
+}
+.Formulario__botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;  
+}
+.footer__Container {
+    flex-wrap: wrap; /* Hace que el contenido baje a la siguiente línea si es necesario */
+}
+
+.Texto_footer {
+    font-size: 1rem;
+}
+
+@media  (min-width: 150px) and (max-width:500px) {
+    .header__container{
+        margin: 5%;
+    }
+    .Imagen__Header__productos, .Imagen__Header__Home {
+        height: 40px;
+        width: 40px;
+    }
+    h2 {
+        display: none;
+    }
+    .Titulo {
+        font-size: 2rem;
+        margin-bottom: 1%;
+    }
+    .Formulario input{
+        width: 100%;
+    }
+    input[type="submit"] {
+        
+        padding: 10px;
+        background-color: #01070d;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: var(--Fuente_Botones);
+    }
+
+    .Texto_footer {
+        font-size: 1rem;
+    }
+
+}
+
+@media  (min-width: 501px) and (max-width:768px){
+    .header__container{
+        margin: 3%;
+        padding: 5px;  
+    }
+    .Imagen__Header__productos, .Imagen__Header__Home {
+        height: 60px;
+        width: 60px;
+    }
+    .Titulo__inicio{
+        font-size: 1.9rem; 
+    }
+    .Formulario input{
+        width: 100%;
+    }
+    .Titulo {
+        margin-bottom: 10px;
+        text-shadow: 7px 2px 5px rgba(0, 0, 0, 0.985);
+        padding: 20px;
+        font-size: 4rem;
+    }
+    input[type="submit"] {
+        background-color: var(--Color_Fondo2);
+        border-radius: 20px;
+        font-size: 2rem;
+        font-family: var(--Fuente_Botones);
+    }
+}
+@media  (min-width: 769px) and (max-width:1600px){
+    .header__container{
+        margin: 1% 2% 0%;  
+    }
+    .Imagen__Header__productos, .Imagen__Header__Home {
+        height: 80px;
+        width: 80px;
+    }
+    .Titulo__inicio{
+        font-size: 1.8rem; 
+    }
+    .Titulo {
+        margin-bottom: 10px;
+        text-shadow: 7px 2px 5px rgba(0, 0, 0, 0.985);
+        font-size: 5rem;
+    }
+    .Texto_footer {
+        font-size: 1rem;
+        margin: 1%;
+        font-family: var(--Fuente_Parrafos);
+        color: var(--Color_fuente);
+    }
+}
